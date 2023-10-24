@@ -2,7 +2,7 @@
 // Libraries and requirements
 	// Getting Quantization Algorithm
 	if (typeof MMCQ === 'undefined') {
-		fetch('https://api.allorigins.win/get?url=https://pastebin.com/raw/KzvbVdd6').then(
+		fetch('https://raw.githubusercontent.com/abnuo/manyland-importer-3/main/quantize.js').then(
 			resp => resp.text()
 		).then(script => {
 			let importer = JSON.parse(script);
