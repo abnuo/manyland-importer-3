@@ -5,10 +5,8 @@
 		fetch('https://raw.githubusercontent.com/abnuo/manyland-importer-3/main/quantize.js').then(
 			resp => resp.text()
 		).then(script => {
-			let importer = JSON.parse(script);
-			// consoleref.log(importer.contents);
 			mm = document.createElement('script');
-			mm.innerHTML = importer.contents;
+			mm.innerHTML = script;
 			$('body')[0].appendChild(mm);
 		})
 	}
