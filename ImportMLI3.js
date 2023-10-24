@@ -1,5 +1,5 @@
 if (typeof(pixelCopyImage) === 'undefined') {
-	fetch('https://raw.githubusercontent.com/Pixelguru26/manyland-importer-3/main/PixelCopyImage.js').then(
+	fetch('https://raw.githubusercontent.com/abnuo/manyland-importer-3/main/PixelCopyImage.js').then(
 		response => response.text()
 	).then(
 		script => {
